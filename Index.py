@@ -1,15 +1,14 @@
 import time
 from datetime import datetime as dt
 
-host_path_windows = r"C:\Windows\System32\drivers\etc"
 host_path_unix = "/etc/hosts"
 
-host_dir = 'hosts'
+#host_dir = 'hosts'
 
-#host_dir = host_path_unix
+host_dir = host_path_unix
 
 redirect = '# 127.0.0.1'
-P
+
 websites_list = [
 	"www.facebook.com",
 	"facebook.com",
@@ -17,6 +16,7 @@ websites_list = [
 ]
 
 from_hour = 18
+
 to_hour = 21
 
 while True:
